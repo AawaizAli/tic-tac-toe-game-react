@@ -1,0 +1,46 @@
+/* Add this CSS code to your stylesheet */
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 150px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    font-size: 170px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status { 
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
